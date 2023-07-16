@@ -68,8 +68,7 @@ void Game::snakeMoveTo(Position pos) {
 	case CELL_EMPTY:
 		setCellType(pos,CELL_SNAKE);
 		break;	
-	default:
-		break;
+	
 	}
 	// END CODE HERE
 }

@@ -52,7 +52,7 @@ Game::~Game()
 
 void Game::snakeMoveTo(Position pos) {
 	//  START CODE HERE
-	switch (getCellType(pos)){}
+	switch (getCellType(pos))
 	{
 	case CELL_OFF_BOARD:
 		status = GAME_OVER;
